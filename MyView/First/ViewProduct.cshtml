@@ -1,0 +1,8 @@
+@using first_lesson.Models
+@model ProductModel
+@{
+    ProductModel p =  ViewData["Product"] as ProductModel;
+}
+<p>@p.Id</p>
+<p>@p.Price</p>
+<p>@p.Name</p>
